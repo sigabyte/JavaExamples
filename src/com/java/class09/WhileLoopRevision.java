@@ -1,0 +1,19 @@
+package com.java.class09;
+
+public class WhileLoopRevision {
+	public static void main(String[] args) {
+		int i = 1;
+
+		while (i <=5) {
+			if(i%3==0) {
+				i--;
+			}
+			System.out.println(i);
+			i++;
+			
+		}
+		
+
+	}
+
+}
